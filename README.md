@@ -1,6 +1,9 @@
 # NGINX-Document
 
 - reverse proxy 
+
+รับ request จาก client ส่งต่อไปยัง server ปลายทางและรับ response จาก server ส่งกลับไปยัง client
+
 - load balancer 
 
 ## ข้อดีของ NGINX
