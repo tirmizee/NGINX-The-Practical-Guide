@@ -14,9 +14,9 @@
 
 ## ความสามารถของ NGINX
 
-- ทำเป็น web server ได้
-- ทำเป็น proxy server ได้
-- ทำเป็น load balance ได้
+- ทำเป็น web server
+- ทำเป็น proxy server
+- ทำเป็น load balance 
 
 ## ข้อดีของ NGINX
 
