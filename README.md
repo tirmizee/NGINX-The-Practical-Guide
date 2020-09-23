@@ -4,7 +4,7 @@
 
   รับ request จาก client ส่งต่อไปยัง server ปลายทางและส่งกลับ response จาก server ไปยัง client
 
-- l#### oad balancer 
+- #### oad balancer 
 
 ## ข้อดีของ NGINX
 
