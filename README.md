@@ -1,5 +1,8 @@
 # NGINX-Document
 
+- reverse proxy 
+- load balancer 
+
 ## ข้อดีของ NGINX
 
 - 1. เร็วที่สุดและดีที่สุดสำหรับการแสดงข้อมูลไฟล์แบบคงที่
