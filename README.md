@@ -4,9 +4,9 @@
 
   รับ request จาก client ส่งต่อไปยัง server ปลายทางและส่ง response จาก server กลับไปยัง client
 
-- #### oad balancer 
+- #### load balancer 
 
-  แจกจ่าย request จาก client ที่เข้ามา
+  แจกจ่าย request จาก client ที่เข้าไปยัง server หลายเครื่อง เพื่อแบ่งเบาภาระของ server ที่ทำงานแค่เครื่องเดียว
 
 ## ข้อดีของ NGINX
 
