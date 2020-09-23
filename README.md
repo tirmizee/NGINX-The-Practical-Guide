@@ -2,7 +2,7 @@
 
 - reverse proxy 
 
-รับ request จาก client ส่งต่อไปยัง server ปลายทางและส่งกลับ response จาก server ไปยัง client
+  รับ request จาก client ส่งต่อไปยัง server ปลายทางและส่งกลับ response จาก server ไปยัง client
 
 - load balancer 
 
