@@ -6,3 +6,7 @@
 ##### ทำการติดตั้ง nginx 
 
     apt-get install nginx
+
+##### แสดงรายการ services
+
+    แสดงรายการ service  --status-all
