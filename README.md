@@ -27,3 +27,7 @@
 - 2. รองรับ Load Balancing
 
 - 3. รองรับและจัดการ  concurrent connections ได้มากกว่า Apache หลายเท่า
+
+### Reference 
+
+- https://www.journaldev.com/26342/nginx-location-directive
