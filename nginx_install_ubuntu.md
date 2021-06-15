@@ -7,6 +7,6 @@
 
     apt-get install nginx
 
-##### แสดงรายการ services
+##### แสดงรายการ services nginx
 
-    แสดงรายการ service  --status-all
+    แสดงรายการ service  --status-all | grep nginx
