@@ -14,3 +14,7 @@
 ##### ทำการตรวจสอบสถานะ service nginx 
 
     service nginx status
+
+##### ทำการ start service nginx
+
+    service nginx start
