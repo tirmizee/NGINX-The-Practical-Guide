@@ -18,3 +18,7 @@
 ##### ทำการ start service nginx
 
     service nginx start
+
+##### ทำการทดสอบเรียกใช้งาน
+
+    curl localhost
