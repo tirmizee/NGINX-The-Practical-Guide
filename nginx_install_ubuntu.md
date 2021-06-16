@@ -7,9 +7,9 @@
 
     apt-get install nginx
 
-##### แสดงรายการ services nginx เพื่อตรวจสอบว่ามี service ของ nginx หรือเปล่า
+##### ทำการตรวจสอบว่ามี service ของ nginx หรือเปล่า
 
-    แสดงรายการ service  --status-all | grep nginx
+    service  --status-all | grep nginx
 
 ##### ทำการตรวจสอบสถานะ service nginx 
 
