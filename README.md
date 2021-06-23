@@ -21,3 +21,4 @@ Nginx ถูกสร้างขึ้นในปี 2004 โดยนัก�
 
 - https://www.journaldev.com/26342/nginx-location-directive
 - https://piyushchaudhariblog.wordpress.com/2017/04/26/nginx-versus-apache/
+- https://i.dont.works/nginx-mtls-example/
