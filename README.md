@@ -1,8 +1,7 @@
-# NGINX-Document
+# ความเป็นมาของ NGINX
 
 
 
-- 
 
 ## ความสามารถของ NGINX
 
