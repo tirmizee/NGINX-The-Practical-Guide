@@ -51,3 +51,12 @@ main or global context เป็นบริบทเดียวที่ไม
     }
 
 ```
+
+#### Events Context
+#### HTTP Context
+#### Server Context
+#### Location Context
+#### Upstream Context
+#### Mail Context
+#### Limit_except Context
+#### Other Contexts
