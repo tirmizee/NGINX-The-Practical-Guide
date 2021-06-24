@@ -23,12 +23,12 @@
 
 ```sql
 
-    worker_processes 2; # directive in the global context  
+    worker_processes 2; # directive ใน main or global context  
     http {              # http context  
-        gzip on;        # directive in http context  
+        gzip on;        # directive ใน http context  
 
       server {          # server context  
-        listen 80;      # directive in server context  
+        listen 80;      # directive ใน server context  
       }  
     }  
 
