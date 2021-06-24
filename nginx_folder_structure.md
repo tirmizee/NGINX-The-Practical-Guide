@@ -21,6 +21,8 @@
 
 เมื่อเปิด configuration file จะสั่งเกตเห็น { ... } พื้นที่ที่เป็นวงเล็บนี้เรียกว่า context. เพื่อแยกรายละเอียดการกำหนดค่าตาม mudule ต่างๆ
 
+```sql
+
     worker_processes 2; # directive in the global context  
     http {              # http context  
         gzip on;        # directive in http context  
@@ -29,3 +31,5 @@
         listen 80;      # directive in server context  
       }  
     }  
+
+```
