@@ -9,3 +9,7 @@
 
 - Context
 - Directive
+
+#### Directive
+
+ตัวเลือกการกำหนดค่าใน Nginx เรียกว่า directives
