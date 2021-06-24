@@ -12,4 +12,4 @@
 
 #### Directive
 
-ตัวเลือกการกำหนดค่าใน Nginx เรียกว่า directives
+ตัวเลือกการกำหนดค่าใน Nginx เรียกว่า directives. directive ประกอบไปด้วย name และ values และต้องลงท้ายด้วยเครื่องหมาย ; เช่น gzip on;  
