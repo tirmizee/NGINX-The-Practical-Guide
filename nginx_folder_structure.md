@@ -4,3 +4,8 @@
 - /etc/nginx/nginx.conf
 - /usr/local/etc/nginx/nginx.conf  
 - /usr/local/nginx/conf/nginx.conf  
+
+#### condifuration file มีเนื้อหา 2 ส่วน
+
+- Context
+- Directive
