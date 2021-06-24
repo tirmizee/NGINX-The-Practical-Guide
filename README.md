@@ -17,6 +17,10 @@ Nginx ถูกสร้างขึ้นในปี 2004 โดยนัก�
 
 - 3. รองรับและจัดการ  concurrent connections ได้มากกว่า Apache หลายเท่า
 
+- 4. สามารถทำเป็น reverse proxy
+
+- 5. สามารถทำ rate limit network services
+
 ### Reference 
 
 - https://www.journaldev.com/26342/nginx-location-directive
