@@ -7,6 +7,10 @@
 
     apt-get install nginx
 
+##### ตรวจสอบ version ของ nginx ที่ทำการติดตั้ง
+
+    nginx -v
+
 ##### ทำการตรวจสอบว่ามี service ของ nginx หรือเปล่า
 
     service  --status-all | grep nginx
