@@ -37,3 +37,17 @@
 main or global context เป็นบริบทเดียวที่ไม่มีอยู่ภายในบล็อกของบริบทอื่น
 
 #### Main or Global Context
+
+```sql
+
+    # main context อยู่ที่นี่นอกบริบทอื่นใด
+
+    . . .
+
+    context {
+
+        . . .
+
+    }
+
+```
