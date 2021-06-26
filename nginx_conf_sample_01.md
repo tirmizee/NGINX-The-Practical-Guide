@@ -1,3 +1,8 @@
+#### demo
+
+      nginx -t
+      
+      service nginx reload
 
 ##### /etc/nginx/nginx.conf
 
