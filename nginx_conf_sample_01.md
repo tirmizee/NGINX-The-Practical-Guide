@@ -1,5 +1,5 @@
 
-##### nginx.conf
+##### /etc/nginx/nginx.conf
 
       events {}
 
@@ -11,3 +11,5 @@
             index index.nginx-debian.html;
          }
       }
+
+##### /var/www/html/index.nginx-debian.html
