@@ -1,8 +1,3 @@
-#### demo
-
-      nginx -t
-      
-      service nginx reload
 
 ##### /etc/nginx/nginx.conf
 
@@ -35,3 +30,11 @@
       <h1>Welcome to nginx! port 8080</h1>
       </body>
       </html>
+
+#### demo
+
+      nginx -t
+      
+      service nginx reload
+      
+      curl localhost
