@@ -40,7 +40,7 @@ main or global context เป็นบริบทเดียวที่ไม
 
 ```sql
 
-    # main context อยู่ที่นี่นอกบริบทอื่นใด
+    # main context อยู่นอกบริบทอื่นใดๆ
 
     . . .
 
