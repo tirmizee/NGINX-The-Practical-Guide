@@ -35,6 +35,10 @@
             location /greeting {
                return 200 "$host $uri $date_gmt";
             }
+            
+            location /profile {
+               return 200 "profile page";
+            }
 
          }
 
