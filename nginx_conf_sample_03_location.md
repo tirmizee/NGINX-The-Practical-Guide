@@ -1,6 +1,8 @@
 
 ##### 1. /etc/nginx/nginx.conf 
 
+```sql
+
       events {}
 
       http {
@@ -19,6 +21,8 @@
          }
 
       }
+
+```
 
 ##### 2. /etc/nginx/nginx.conf
 
