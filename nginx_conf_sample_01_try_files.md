@@ -14,7 +14,7 @@
           index index.nginx-debian.html;
 
           location / {
-             try_files $uri =404;
+             try_files $uri $uri/ =404;
           }
 
        }
