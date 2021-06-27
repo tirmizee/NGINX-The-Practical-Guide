@@ -1,5 +1,3 @@
-- การใช้ localtion อย่างง่าย
-- การใช้หลาย localtion
 
 ##### 1. /etc/nginx/nginx.conf 
 
