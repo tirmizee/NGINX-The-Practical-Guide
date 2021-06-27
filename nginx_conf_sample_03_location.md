@@ -1,7 +1,7 @@
 
 ##### 1. /etc/nginx/nginx.conf 
 
-```json
+```yaml
 
       events {}
 
