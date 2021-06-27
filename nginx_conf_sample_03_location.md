@@ -53,6 +53,8 @@
 
 ##### . /etc/nginx/nginx.conf
 
+- ##### = uri = Exact Match
+
       events {}
 
       http {
