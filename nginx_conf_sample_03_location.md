@@ -53,6 +53,7 @@
 
 ##### . /etc/nginx/nginx.conf
 
+- ##### uri = Prefix Match
 - ##### = uri = Exact Match
 - ##### ^~ uri = Preferential Prefix Match
 - ##### ~ uri = Exact Match case sensitive
