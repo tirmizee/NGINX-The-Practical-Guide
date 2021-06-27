@@ -1,5 +1,5 @@
-- 1. simple localtion
-- 2. multiple localtion
+- simple localtion
+- multiple localtion
 
 ##### 1. /etc/nginx/nginx.conf 
 
