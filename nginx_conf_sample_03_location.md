@@ -1,7 +1,7 @@
 
 ##### 1. /etc/nginx/nginx.conf 
 
-```yaml
+```java
 
       events {}
 
