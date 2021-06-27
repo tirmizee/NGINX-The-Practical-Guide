@@ -1,7 +1,7 @@
 
 ##### 1. /etc/nginx/nginx.conf 
 
-```sql
+```json
 
       events {}
 
