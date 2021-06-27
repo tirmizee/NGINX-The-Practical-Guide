@@ -82,6 +82,16 @@
                return 200 "exact match $uri";
             }
 
+            # regex match case sensitive
+            location ~ /menu[0-9] {
+               return 200 "regex match case sensitive";
+            }
+
+            # regex match case insensitive
+            location ~* /abount {
+               return 200 "regex match case insensitive";
+            }
+
          }
 
       }
