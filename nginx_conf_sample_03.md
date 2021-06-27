@@ -1,3 +1,6 @@
+- simple localtion
+- multiple localtion
+
 ##### 1. /etc/nginx/nginx.conf 
 
       events {}
