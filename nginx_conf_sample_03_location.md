@@ -50,7 +50,37 @@
       }
       
 
-##### 3. /etc/nginx/nginx.conf
+
+##### . /etc/nginx/nginx.conf
+
+      events {}
+
+      http {
+
+         server {
+
+            include mime.types;
+
+            listen 80;
+            server_name www.example.com;
+            root /var/www/html;
+            index index.nginx-debian.html;
+
+            # prefix match
+            location /home {
+               return 200 "prefix match $uri";
+            }
+
+            # exact match
+            location = /main {
+               return 200 "exact match $uri";
+            }
+
+         }
+
+      }
+
+##### . /etc/nginx/nginx.conf
 
       events {}
 
@@ -79,7 +109,7 @@
 
       }
 
-##### 4. /etc/nginx/nginx.conf
+##### . /etc/nginx/nginx.conf
 
       events {}
       
@@ -112,7 +142,7 @@
       }
 
 
-##### 5. /etc/nginx/nginx.conf
+##### . /etc/nginx/nginx.conf
 
       events {}
 
@@ -134,7 +164,7 @@
 
       }
 
-##### 6. /etc/nginx/nginx.conf
+##### . /etc/nginx/nginx.conf
 
       events {}
 
@@ -160,7 +190,7 @@
 
       }
 
-##### 7. /etc/nginx/nginx.conf
+##### . /etc/nginx/nginx.conf
 
     events {}
 
