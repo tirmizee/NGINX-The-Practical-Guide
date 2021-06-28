@@ -209,27 +209,27 @@
 
 ##### . /etc/nginx/nginx.conf
 
-events {}
+      events {}
 
-http {
+      http {
 
-   server {
+         server {
 
-      include mime.types;
+            include mime.types;
 
-      listen 80;
-      server_name www.example.com;
-      root /var/www/html;
-      index index.nginx-debian.html;
+            listen 80;
+            server_name www.example.com;
+            root /var/www/html;
+            index index.nginx-debian.html;
 
-      # prefix match
-      location ~ /\.(gif|jpg|png)$ {
-         root /var/www/data;
+            # prefix match
+            location ~ /\.(gif|jpg|png)$ {
+               root /var/www/data;
+            }
+
+         }
+
       }
-
-   }
-
-}
 
 ##### . /etc/nginx/nginx.conf
 
