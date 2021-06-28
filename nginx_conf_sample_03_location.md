@@ -206,6 +206,31 @@
 
       }
 
+
+##### . /etc/nginx/nginx.conf
+
+events {}
+
+http {
+
+   server {
+
+      include mime.types;
+
+      listen 80;
+      server_name www.example.com;
+      root /var/www/html;
+      index index.nginx-debian.html;
+
+      # prefix match
+      location ~ /\.(gif|jpg|png)$ {
+         root /var/www/data;
+      }
+
+   }
+
+}
+
 ##### . /etc/nginx/nginx.conf
 
     events {}
