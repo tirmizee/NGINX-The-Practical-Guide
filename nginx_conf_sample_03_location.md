@@ -223,7 +223,12 @@
             index index.nginx-debian.html;
 
             # prefix match
-            location ~ /\.(gif|jpg|png)$ {
+            location ~ \.(gif|jpg|png)$ {
+               root /var/www/data;
+            }
+
+            # prefix match
+            location /images/ {
                root /var/www/data;
             }
 
