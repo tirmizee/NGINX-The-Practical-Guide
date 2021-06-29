@@ -1,1 +1,3 @@
+##### ตรวจสอบ packet wget มีให้ติดตั้งหรือไม่
 
+    apt-cache search wget
