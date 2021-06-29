@@ -25,3 +25,7 @@
 ##### ให้สิทธิ exercute คำสั่ง mkcert
 
     chmod +x /usr/local/bin/mkcert
+
+##### สร้าง Certificate 
+
+    mkcert localhost
