@@ -30,7 +30,7 @@
 
     mkcert localhost
 
-##### nginx.conf
+##### ตั่งค่า certificate ใน nginx.conf
 
      events {}
 
@@ -50,3 +50,8 @@
         }
 
     }
+
+
+##### ทำการ restart nginx
+
+    service nginx restart
