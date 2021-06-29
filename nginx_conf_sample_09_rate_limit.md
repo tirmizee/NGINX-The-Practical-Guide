@@ -1,4 +1,4 @@
 
 ### สิ่งที่ต้องติดตั้ง
 
-- siege
+- siege  คือ regression test และ benchmark utility
