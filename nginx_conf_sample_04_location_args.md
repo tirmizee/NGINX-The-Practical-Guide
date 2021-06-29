@@ -26,6 +26,6 @@
 
     chmod +x /usr/local/bin/mkcert
 
-##### สร้าง Certificate 
+##### สร้าง private key และ public key
 
     mkcert localhost
