@@ -24,4 +24,4 @@
 
 ##### ให้สิทธิ exercute คำสั่ง mkcert
 
-    sudo chmod +x /usr/local/bin/mkcert
+    chmod +x /usr/local/bin/mkcert
