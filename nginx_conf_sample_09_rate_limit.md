@@ -4,3 +4,9 @@
 - siege  คือ regression test และ benchmark utility
 
 ##### ติดตั้ง siege
+
+    apt-get install siege
+    
+##### ตรวจสอบการติดตั้ง     
+
+    siege -V
