@@ -17,3 +17,7 @@
 ##### download mkcert โดยใช้ wget
 
     wget https://github.com/FiloSottile/mkcert/releases/download/v1.4.3/mkcert-v1.4.3-linux-amd64
+
+##### ทำการ copy mkcert-v1.4.3-linux-amd64 ไปยัง /usr/local/bin/mkcert
+
+    cp mkcert-v1.4.3-linux-amd64 /usr/local/bin/mkcert
