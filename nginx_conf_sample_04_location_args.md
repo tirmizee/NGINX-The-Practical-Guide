@@ -29,3 +29,24 @@
 ##### สร้าง private key และ public key
 
     mkcert localhost
+
+#####
+
+     events {}
+
+     http {
+
+        server {
+
+           listen 443 ssl;
+           server_name www.example.com;
+
+           ssl_certificate /etc/ssl/localhost.pem;
+           ssl_certificate_key /etc/ssl/localhost-key.pem;
+
+           root /var/www/html;
+           index index.nginx-debian.html;
+
+        }
+
+    }
