@@ -10,3 +10,8 @@
 ##### ตรวจสอบการติดตั้ง     
 
     siege -V
+
+
+### Reference
+
+- https://www.nginx.com/blog/rate-limiting-nginx/
