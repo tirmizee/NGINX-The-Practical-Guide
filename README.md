@@ -23,3 +23,4 @@ Nginx ถูกสร้างขึ้นในปี 2004 โดยนัก�
 - https://piyushchaudhariblog.wordpress.com/2017/04/26/nginx-versus-apache/
 - https://i.dont.works/nginx-mtls-example/
 - https://www.javatpoint.com/nginx-http-load-balancing
+- https://www.nginx.com/blog/creating-nginx-rewrite-rules/
