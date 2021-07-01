@@ -1,5 +1,5 @@
 
-##### 1. /etc/nginx/nginx.conf 
+##### 1. simple
 
 ```sql
 
@@ -24,7 +24,7 @@
 
 ```
 
-##### 2. /etc/nginx/nginx.conf
+##### 2. multiple location
 
       events {}
 
@@ -51,7 +51,7 @@
       
 
 
-##### . /etc/nginx/nginx.conf
+##### . match case
 
 - ##### uri = Prefix Match
 - ##### = uri = Exact Match
@@ -96,7 +96,7 @@
 
       }
 
-##### . /etc/nginx/nginx.conf
+##### if condition 01
 
       events {}
 
@@ -125,7 +125,7 @@
 
       }
 
-##### . /etc/nginx/nginx.conf
+##### if condition 02
 
       events {}
       
@@ -158,7 +158,7 @@
       }
 
 
-##### . /etc/nginx/nginx.conf
+##### root 01
 
       events {}
 
@@ -180,7 +180,7 @@
 
       }
 
-##### . /etc/nginx/nginx.conf
+##### root 02
 
       events {}
 
@@ -207,7 +207,7 @@
       }
 
 
-##### . /etc/nginx/nginx.conf
+##### . root 03
 
       events {}
 
@@ -236,7 +236,7 @@
 
       }
 
-##### . /etc/nginx/nginx.conf
+##### . try_files
 
     events {}
 
